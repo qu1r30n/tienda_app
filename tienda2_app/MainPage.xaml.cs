@@ -107,7 +107,7 @@ namespace tienda2_app
             await Navigation.PushAsync(new pantallas.ventas());
         }
 
-        async private void btn_compras(object sender, EventArgs e)
+        async private void btn_investigacion_merc(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new pantallas.compras());
         }
@@ -115,6 +115,11 @@ namespace tienda2_app
         async private void btn_cambiar_info(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new pantallas.cambio_info());
+        }
+
+        async private void btn_pedidos_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new pantallas.pedidos());
         }
     }
 }

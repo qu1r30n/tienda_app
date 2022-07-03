@@ -8,21 +8,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("tienda2_app.MainPage.xaml", "MainPage.xaml", typeof(global::tienda2_app.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("tienda2_app.qrscaners.qrscaner_modelo - Copia.xaml", "qrscaners/qrscaner_modelo - Copia.xaml", typeof(global::tienda2_app.qrscaners.qrscaner_modelo))]
 
-namespace tienda2_app {
+namespace tienda2_app.qrscaners {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("MainPage.xaml")]
-    public partial class MainPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("qrscaners\\qrscaner_modelo - Copia.xaml")]
+    public partial class qrscaner_modelo : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Button btn_pedidos;
+        private global::ZXing.Net.Mobile.Forms.ZXingScannerView scanView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
-            btn_pedidos = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btn_pedidos");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(qrscaner_modelo));
+            scanView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ZXing.Net.Mobile.Forms.ZXingScannerView>(this, "scanView");
         }
     }
 }

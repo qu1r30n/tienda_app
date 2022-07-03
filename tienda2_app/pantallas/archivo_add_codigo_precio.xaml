@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tienda2_app.pantallas.archivo_add_codigo_precio">
+    <ContentPage.Content>
+        <Entry x:Name="txt_codbar_c" Placeholder="busqueda codigo" Completed="txt_codbar_c_Completed"  />
+        
+    </ContentPage.Content>
+</ContentPage>

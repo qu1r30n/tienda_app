@@ -8,20 +8,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("tienda2_app.qrscaners.qr_invent.xaml", "qrscaners/qr_invent.xaml", typeof(global::tienda2_app.qrscaners.qr_invent))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("tienda2_app.qrscaners.qr_archivo_add_codigo_precio.xaml", "qrscaners/qr_archivo_add_codigo_precio.xaml", typeof(global::tienda2_app.qrscaners.qr_archivo_add_codigo_precio))]
 
 namespace tienda2_app.qrscaners {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("qrscaners\\qr_invent.xaml")]
-    public partial class qr_invent : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("qrscaners\\qr_archivo_add_codigo_precio.xaml")]
+    public partial class qr_archivo_add_codigo_precio : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::ZXing.Net.Mobile.Forms.ZXingScannerView scanView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(qr_invent));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(qr_archivo_add_codigo_precio));
             scanView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ZXing.Net.Mobile.Forms.ZXingScannerView>(this, "scanView");
         }
     }

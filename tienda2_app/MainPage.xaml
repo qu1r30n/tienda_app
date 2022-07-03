@@ -12,8 +12,9 @@
 
         <Button Text="inventario" Clicked="btn_inventario"/>
         <Button Text="ventas" Clicked="btn_ventas"/>
-        <Button Text="compras" Clicked="btn_compras"/>
+        <Button Text="investigacion mercado" Clicked="btn_investigacion_merc"/>
         <Button Text="cambio de informacion" Clicked="btn_cambiar_info"/>
+        <Button Text="pedidos" x:Name="btn_pedidos" Clicked="btn_pedidos_Clicked" />
     </StackLayout>
 
 </ContentPage>

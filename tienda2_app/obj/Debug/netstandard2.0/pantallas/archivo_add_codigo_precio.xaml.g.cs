@@ -8,21 +8,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("tienda2_app.MainPage.xaml", "MainPage.xaml", typeof(global::tienda2_app.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("tienda2_app.pantallas.archivo_add_codigo_precio.xaml", "pantallas/archivo_add_codigo_precio.xaml", typeof(global::tienda2_app.pantallas.archivo_add_codigo_precio))]
 
-namespace tienda2_app {
+namespace tienda2_app.pantallas {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("MainPage.xaml")]
-    public partial class MainPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("pantallas\\archivo_add_codigo_precio.xaml")]
+    public partial class archivo_add_codigo_precio : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Button btn_pedidos;
+        private global::Xamarin.Forms.Entry txt_codbar_c;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
-            btn_pedidos = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btn_pedidos");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(archivo_add_codigo_precio));
+            txt_codbar_c = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "txt_codbar_c");
         }
     }
 }

@@ -12,7 +12,6 @@ namespace tienda2_app.clases
 
         public string[] ordenar_mejores_propuestas_compras(string codigo_barras, string provedor_actual, string precio_texto,string cantidad_texto)
         {
-            
 
             double precio_numero_actual = Convert.ToDouble(precio_texto);
             
@@ -102,17 +101,15 @@ namespace tienda2_app.clases
             
         }
         
-        public void inventario(string codigo,string cantidad)
+        public void inventario(string codigo,string cantidad,string nombre_produc)
         {
             
-            string direccion_inv = directorio + "inf/inventario/invent.txt";
-            //id_0|producto_1|precio_de_venta_2|0_3|cantidad_4|costo_compra_5|provedor_6|grupo_7|multiusos_8|cantidad_productos_por_paquete_9|
-            string nombre_produc = bas.Seleccionar(direccion_inv,3,codigo,"3");
-            DateTime fecha_hora = new DateTime();
+            
+            DateTime fecha_hora = DateTime.Now;
             string año_mes_dia=fecha_hora.ToString("yyyyMMdd");
             string hora_min_seg = fecha_hora.ToString("HHmmss");
             string inventario_de_hoy = directorio + "hacer_inventarios/" + año_mes_dia + "_inventario.txt";
-            
+
             bas.Crear_archivo_y_directorio(inventario_de_hoy);
             bas.Agregar(inventario_de_hoy,codigo+"|"+nombre_produc+"|"+cantidad+"|"+hora_min_seg+"|");
         }
@@ -169,7 +166,8 @@ namespace tienda2_app.clases
             return arreglo;
         }
 
+        
 
-
+        
     }
 }

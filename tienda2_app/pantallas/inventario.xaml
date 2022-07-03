@@ -6,8 +6,8 @@
     <ContentPage.Content>
         <StackLayout>
             <Entry x:Name="txt_codigo" Placeholder="codigo de barras" Completed="txt_codigo_Completed"/>
-            <Entry x:Name="txt_cantidad" Placeholder="cantidad"/>
-            <Button Clicked="btn_empezar_Clicked" Text="empezar" />
+            <Button Clicked="btn_empezar_Clicked" Text="usar camara" />
+            
         </StackLayout>
     </ContentPage.Content>
     
