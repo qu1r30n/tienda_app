@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:dotMorten.Xamarin.Forms;assembly=dotMorten.Xamarin.Forms.AutoSuggestBox"
+             x:Class="tienda_app2.pantallas.pedidos">
+    <ContentPage.Content>
+        <Grid>
+
+
+            <ListView Grid.Row="0" Grid.Column="0"  x:Name="lstv_productos" ItemTapped="lstv_productos_ItemTapped">
+
+            </ListView>
+
+            
+
+            <StackLayout Grid.Row="1">
+                
+                <Label Text="codigo" />
+                <forms:AutoSuggestBox x:Name="txt_provedor_suggest"  TextChanged="txt_provedo_TextChanged" QuerySubmitted="txt_provedo_suggest_QuerySubmitted"/>
+                <Entry x:Name="txt_codigo" Placeholder="codigo de barras" Completed="txt_codigo_Completed"/>
+                <Button x:Name="btn_agregar" Clicked="btn_agregar_Clicked" Text="agregar"></Button>
+                <Button x:Name="btn_remover" Clicked="btn_remover_Clicked" Text="remover de abajo" />
+            </StackLayout>
+
+            <ListView Grid.Row="2" Grid.Column="0" x:Name="lstv_productos2" ItemTapped="lstv_productos2_ItemTapped" >
+
+            </ListView>
+
+            <StackLayout Grid.Row="3">
+                <Button x:Name="btn_proceder" Clicked="btn_proceder_Clicked" Text="agregar"></Button>
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

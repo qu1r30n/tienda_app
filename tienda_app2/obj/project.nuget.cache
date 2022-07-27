@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "+jcikDJ4PcONvFAjUSgD6T+h38/PZL4Hw+8JYuK1Nk6vTYNL0Yk4ug7LU9CpdkIMs6UgEI357GLR6teMpZUm5A==",
+  "success": true,
+  "projectFilePath": "D:\\prog_cel\\tienda_app2\\tienda_app2\\tienda_app2\\tienda_app2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\qu1r30n\\.nuget\\packages\\dotmorten.xamarin.forms.autosuggestbox\\1.1.1\\dotmorten.xamarin.forms.autosuggestbox.1.1.1.nupkg.sha512",
+    "C:\\Users\\qu1r30n\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\qu1r30n\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\qu1r30n\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\qu1r30n\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\qu1r30n\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\qu1r30n\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
+    "C:\\Users\\qu1r30n\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}

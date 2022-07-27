@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tienda_app2.pantallas.inventario">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="txt_codigo" Placeholder="codigo de barras" Completed="txt_codigo_Completed"/>
+            <Button Clicked="btn_empezar_Clicked" Text="usar camara" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
