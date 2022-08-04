@@ -17,7 +17,7 @@
                 
                 <Label Text="codigo" />
                 <forms:AutoSuggestBox x:Name="txt_provedor_suggest"  TextChanged="txt_provedo_TextChanged" QuerySubmitted="txt_provedo_suggest_QuerySubmitted"/>
-                <Entry x:Name="txt_codigo" Placeholder="codigo de barras" Completed="txt_codigo_Completed"/>
+                
                 <Button x:Name="btn_agregar" Clicked="btn_agregar_Clicked" Text="agregar"></Button>
                 <Button x:Name="btn_remover" Clicked="btn_remover_Clicked" Text="remover de abajo" />
             </StackLayout>

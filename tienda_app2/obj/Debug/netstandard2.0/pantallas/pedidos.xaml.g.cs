@@ -23,9 +23,6 @@ namespace tienda_app2.pantallas {
         private global::dotMorten.Xamarin.Forms.AutoSuggestBox txt_provedor_suggest;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Entry txt_codigo;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Button btn_agregar;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
@@ -42,7 +39,6 @@ namespace tienda_app2.pantallas {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(pedidos));
             lstv_productos = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "lstv_productos");
             txt_provedor_suggest = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::dotMorten.Xamarin.Forms.AutoSuggestBox>(this, "txt_provedor_suggest");
-            txt_codigo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "txt_codigo");
             btn_agregar = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btn_agregar");
             btn_remover = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btn_remover");
             lstv_productos2 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "lstv_productos2");
