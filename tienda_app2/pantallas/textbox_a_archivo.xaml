@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tienda_app2.pantallas.textbox_a_archivo">
+    <ContentPage.Content>
+        <Grid>
+
+
+            <ListView Grid.Row="0" Grid.Column="0"  x:Name="lstv_productos" ItemTapped="lstv_productos_ItemTapped">
+            </ListView>
+
+            <StackLayout Grid.Row="1">
+                <Entry x:Name="txt_codbar_c" Placeholder="busqueda codigo" Completed="txt_codbar_c_Completed"  />
+                <Button x:Name="btn_proceder" Clicked="btn_proceder_Clicked"  Text="proceder"></Button>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

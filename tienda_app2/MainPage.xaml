@@ -15,6 +15,7 @@
         <Button Text="investigacion mercado" Clicked="btn_investigacion_merc"/>
         <Button Text="cambio de informacion" Clicked="btn_cambiar_info"/>
         <Button Text="pedidos" x:Name="btn_pedidos" Clicked="btn_pedidos_Clicked" />
+        <Button Text="codigos rapidos" x:Name="btn_codigos_rapidos" Clicked="btn_codigos_rapidos_Clicked" />
     </StackLayout>
 
 </ContentPage>

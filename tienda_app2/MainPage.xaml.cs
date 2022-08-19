@@ -119,5 +119,10 @@ namespace tienda_app2
         {
             await Navigation.PushAsync(new pantallas.pedidos());
         }
+
+        async private void btn_codigos_rapidos_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new pantallas.textbox_a_archivo());
+        }
     }
 }

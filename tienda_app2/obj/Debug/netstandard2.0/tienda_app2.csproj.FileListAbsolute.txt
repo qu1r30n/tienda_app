@@ -54,3 +54,4 @@ D:\prog_cel\tienda_app2\tienda_app2\tienda_app2\obj\Debug\netstandard2.0\tienda_
 D:\prog_cel\tienda_app2\tienda_app2\tienda_app2\obj\Debug\netstandard2.0\refint\tienda_app2.dll
 D:\prog_cel\tienda_app2\tienda_app2\tienda_app2\obj\Debug\netstandard2.0\tienda_app2.pdb
 D:\prog_cel\tienda_app2\tienda_app2\tienda_app2\obj\Debug\netstandard2.0\ref\tienda_app2.dll
+D:\prog_cel\tienda_app2\tienda_app2\tienda_app2\obj\Debug\netstandard2.0\pantallas\textbox_a_archivo.xaml.g.cs
